@@ -1,0 +1,26 @@
+name: CI Example
+
+# 1. Define the Trigger (Event)
+on:
+  push:
+    branches: [ "main" ]
+
+# 2. Define the Work to be done
+jobs:
+  build-and-test:
+    # Specify the OS (Runner)
+    runs-on: ubuntu-latest
+
+    # 3. Define the Steps
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4  # This pulls your code into the runner
+
+      - name: Run a one-line script
+        run: echo "Starting the CI process..."
+
+      - name: Run a multi-line script
+        run: |
+          echo "Testing environment..."
+          node -v
+          npm -v
