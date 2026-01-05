@@ -1,7 +1,9 @@
 student name                        ID 
 1. Kokob Hailay                    ugr/188347/16
-2. Kibrealem Gebretnsae            ugr/
+2. Kibrealem Gebretnsae            
 3. Tesfay Nguse
+2. Kibrealem Gebretnsae             
+3. Tesfay Nguse    
 4. Awet Teklay
 5. Yeabsra shims    
 6. Rebyu Dejene     
